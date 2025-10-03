@@ -3,7 +3,7 @@ import time
 
 
 def create_customer(connection, customer_data):
-
+ 
     sql = """
     INSERT INTO oc_customer (
         customer_group_id, store_id, language_id, firstname, lastname, 
